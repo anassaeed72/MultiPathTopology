@@ -3,6 +3,8 @@ from mininet.net import Mininet
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 import random
+import os
+import sys
 class MultiPathRouting(Topo):
     def build(self):
         switch1 = self.addSwitch('s1')
@@ -60,7 +62,8 @@ def setUpNetwork():
     dumpNodeConnections(multiPathRoutingNetwork.hosts)
     print "Testing network connectivity"
     multiPathRoutingNetwork.pingAll()
-    multiPathRoutingNetwork.stop()
+    # multiPathRoutingNetwork.stop()
+    os.system("sudo mn")
 def connectHostsToNetwork(network):
     listOfSwitches = random.sample(range(1,13),6)
     network.addLink(network.getNodeByName('s'+str(listOfSwitches[0])),network.getNodeByName('ch1'))
