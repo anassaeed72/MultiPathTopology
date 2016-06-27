@@ -2,7 +2,7 @@ from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
-
+import random
 class MultiPathRouting(Topo):
     def build(self):
         switch1 = self.addSwitch('s1')
@@ -37,17 +37,39 @@ class MultiPathRouting(Topo):
         self.addLink(switch10, switch11)
         self.addLink(switch10, switch12)
         self.addLink(switch11, switch12)
+
+        clientHost1 = self.addHost('ch1')
+        clientHost2 = self.addHost('ch3')
+        clientHost3 = self.addHost('ch2')
+
+        serverHost1 = self.addHost('sh1')
+        serverHost1 = self.addHost('sh2')
+        serverHost1 = self.addHost('sh3')
+
+        listOfSwitches = random.sample(range(1,13),6)
+
+        # for switch in listOfSwitches:
+        #     self.addLink(clientHost2,clientHost3)
 def setUpNetwork():
     multiPathRoutingTopology = MultiPathRouting()
     multiPathRoutingNetwork = Mininet(multiPathRoutingTopology)
     multiPathRoutingNetwork.start()
+    multiPathRoutingNetwork.getNodeByName('s1')
+    connectHostsToNetwork(multiPathRoutingNetwork)
     print "Dumping host connections"
     dumpNodeConnections(multiPathRoutingNetwork.hosts)
     print "Testing network connectivity"
     multiPathRoutingNetwork.pingAll()
     multiPathRoutingNetwork.stop()
+def connectHostsToNetwork(network):
+    listOfSwitches = random.sample(range(1,13),6)
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[0])),network.getNodeByName('ch1'))
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[1])),network.getNodeByName('ch2'))
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[2])),network.getNodeByName('ch3'))
 
-
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[3])),network.getNodeByName('sh1'))
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[4])),network.getNodeByName('sh2'))
+    network.addLink(network.getNodeByName('s'+str(listOfSwitches[5])),network.getNodeByName('sh3'))
 if __name__ == '__main__':
     # Tell mininet to print useful information
     setLogLevel('info')
