@@ -1,11 +1,8 @@
-
 from mininet.topo import Topo
 import random
 class MultiPathTopology( Topo ):
-    "Simple topology example."
 
     def __init__( self ):
-        "Create custom topo."
 
         # Initialize topology
         Topo.__init__( self )
@@ -14,6 +11,7 @@ class MultiPathTopology( Topo ):
         for s in range(12):
             switch = self.addSwitch('s%s' % (s + 1))
             listOfSwitches.append(switch)
+       
         self.addLink(listOfSwitches[0], listOfSwitches[1])
         self.addLink(listOfSwitches[0], listOfSwitches[2])
         self.addLink(listOfSwitches[1], listOfSwitches[4])
@@ -34,8 +32,6 @@ class MultiPathTopology( Topo ):
         self.addLink(listOfSwitches[9], listOfSwitches[11])
         self.addLink(listOfSwitches[10], listOfSwitches[11])
      
-       
-        
         listOfClientHosts=[]
         for ch in range(3):
             host = self.addHost('ch%s' % (ch + 1))
@@ -47,6 +43,7 @@ class MultiPathTopology( Topo ):
             listOfServerHosts.append(host)
 
         listOfSwitchesForHosts = random.sample(range(1,13),6)
+        
         self.addLink(listOfSwitches[listOfSwitchesForHosts[0]],listOfClientHosts[0])
         self.addLink(listOfSwitches[listOfSwitchesForHosts[1]],listOfClientHosts[1])
         self.addLink(listOfSwitches[listOfSwitchesForHosts[2]],listOfClientHosts[2])
