@@ -1,0 +1,252 @@
+server listening on 198.168.0.33  12321
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop
+connection estableised
+data recivevd Hello, world
+data echoed back Hello, world
+connection closed
+in while loop

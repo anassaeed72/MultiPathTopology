@@ -1,0 +1,2 @@
+server listening on 198.168.0.10  12321
+in while loop
