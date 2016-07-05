@@ -46,18 +46,18 @@ def findRules(listPath):
 	# 	print "  self.installRuleBasedOnMac(\""+startMACParameter+"\","+str(findPort(switch,listPath[count-1]))+",event.connection)"
 
 
-# pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath('ch1','ch2')
-# # print pathFromStartToEnd
-# findRules(pathFromStartToEnd)
+pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath('ch1','ch2')
+# print pathFromStartToEnd
+findRules(pathFromStartToEnd)
 
-# pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath('ch2','ch1')
-# # print pathFromStartToEnd
-# findRules(pathFromStartToEnd)
+pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath('ch2','ch1')
+# print pathFromStartToEnd
+findRules(pathFromStartToEnd)
 # # print dijkstra.performDijkstraAndReturnPath('ch1','ch2')
 
-for startNode in listOfHostNamesAndMacs.keys():
-	for endNode in listOfHostNamesAndMacs.keys():
-		if startNode == endNode:
-			continue
-		pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath(startNode,endNode)
-		findRules(pathFromStartToEnd)
+# for startNode in listOfHostNamesAndMacs.keys():
+# 	for endNode in listOfHostNamesAndMacs.keys():
+# 		if startNode == endNode:
+# 			continue
+# 		pathFromStartToEnd = dijkstra.performDijkstraAndReturnPath(startNode,endNode)
+# 		findRules(pathFromStartToEnd)
