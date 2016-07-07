@@ -46,9 +46,9 @@ class MultiPathRouting(Topo):
 
 
         self.addLink(switch1, switch3)
-        self.addLink(switch2, switch5)
+        # self.addLink(switch2, switch5)
         self.addLink(switch3, switch4)
-        self.addLink(switch3, switch6)
+        # self.addLink(switch3, switch6)
         self.addLink(switch4, switch5)
         self.addLink(switch4, switch7)
         # self.addLink(switch4, switch8)
